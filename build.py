@@ -272,9 +272,7 @@ def process(path):
 # ================================================================ BLOG (Markdown)
 POSTS_DIR = os.path.join(HERE, "posts")
 PER_PAGE = 10  # client-side pagination size (kicks in above this many posts)
-FAVICON = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'"
-           "%3E%3Crect width='32' height='32' rx='8' fill='%236324c4'/%3E"
-           "%3Ccircle cx='16' cy='16' r='6' fill='white'/%3E%3C/svg%3E")
+FAVICON = ("assets/img/logo_image.png")
 MONTHS = ['January','February','March','April','May','June','July','August',
           'September','October','November','December']
 
